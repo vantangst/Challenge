@@ -4,7 +4,6 @@
 
 1. We value a clean, simple, working solution.
 2. Having unit tests is a strong bonus.
-3. The solution must be production ready.
 
 # Problem Statement
 
