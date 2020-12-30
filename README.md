@@ -8,6 +8,8 @@ I am is beginner with Unit test so i just created some basic test case, i will t
 
 Thanks
 
+link to download apk: https://install.appcenter.ms/users/vantangst/apps/challenge-liv3ly/distribution_groups/external
+
 # Challenge
 
 # Requirements
