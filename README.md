@@ -1,10 +1,23 @@
+# About project
+This project for interview purpose.
+The app have four screens.
+## Feature: 
+1. User can create shape(Circle, Square and Triangle) by clicking on main background of the view.
+2. Change the color of shape by double clicking on shape.
+
+# About project structer
+Using MVVM architecture.
+Using retrofit for consuming API.
+
+# Configuration guidance
+To change API domain: 
+Go to project folder -> `gradle.properties` -> change the varibale `END_POINT` to your domain
+
 # Note
-Hi,
-Please help me to review the code.
+I have done for all titem at `Problem Statement`.
+I don't have more time to finish extra task. really sorry for that.
 
-I don't have more time to finish extra task. really sorry for that
-
-I am is beginner with Unit test so i just created some basic test case, i will try more later
+I am is beginner with Unit test so i just created some basic test case, i will try more later.
 
 Thanks
 
