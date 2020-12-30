@@ -1,3 +1,13 @@
+# Note
+Hi,
+Please help me to review the code.
+
+I don't have more time to finish extra task. really sorry for that
+
+I am is beginner with Unit test so i just created some basic test case, i will try more later
+
+Thanks
+
 # Challenge
 
 # Requirements
