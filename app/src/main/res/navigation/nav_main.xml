@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/hostSquaresFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@id/hostSquaresFragment"
+        android:name="android.support.core.design.widget.MenuHostFragment"
+        app:navGraph="@navigation/nav_squares"
+        app:navOrder="1"
+        app:navType="stack"
+        tools:layout="@layout/fragment_squares" />
+
+    <fragment
+        android:id="@id/hostCircleFragment"
+        android:name="android.support.core.design.widget.MenuHostFragment"
+        app:navGraph="@navigation/nav_circle"
+        app:navOrder="2"
+        app:navType="stack"
+        tools:layout="@layout/fragment_circle" />
+
+    <fragment
+        android:id="@id/hostTriangleFragment"
+        android:name="android.support.core.design.widget.MenuHostFragment"
+        app:navGraph="@navigation/nav_triangle"
+        app:navOrder="3"
+        app:navType="stack"
+        tools:layout="@layout/fragment_triangle" />
+
+    <fragment
+        android:id="@id/hostRandomFragment"
+        android:name="android.support.core.design.widget.MenuHostFragment"
+        app:navGraph="@navigation/nav_random"
+        app:navOrder="4"
+        app:navType="stack"
+        tools:layout="@layout/fragment_random" />
+
+</navigation>

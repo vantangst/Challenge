@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingButton">
+        <attr name="android:text" format="string" />
+        <attr name="android:textColor" format="color" />
+        <attr name="android:background" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RotateLoadingView">
+        <attr name="loading_width" format="dimension" />
+        <attr name="loading_color" format="color" />
+        <attr name="shadow_position" format="integer" />
+        <attr name="loading_speed" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="AppActionBar">
+        <attr name="title" format="string" />
+        <attr name="showLeft" format="boolean" />
+        <attr name="isHome" format="boolean" />
+        <attr name="showRight" format="boolean" />
+        <attr name="android:background" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PasswordLayout">
+        <attr name="iconColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="SpannedTextView">
+        <attr name="spannedText" format="string" />
+        <attr name="spannedAnchorColor" format="color" />
+        <attr name="underlineAll" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AppImageView">
+        <attr name="imgSrc" format="reference" />
+        <attr name="imgRound" format="dimension" />
+        <attr name="imgBorderSize" format="dimension" />
+        <attr name="imgBorderColor" format="color" />
+        <attr name="imgCenterCrop" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TabView">
+        <attr name="tabMenu" format="reference" />
+        <attr name="android:background" format="reference" />
+        <attr name="android:color" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="IconButton">
+        <attr name="buttonTitle" format="string" />
+        <attr name="iconSrc" format="reference" />
+        <attr name="showIconRight" format="boolean" />
+        <attr name="titleTextCapAll" format="boolean" />
+        <attr name="iconSize" format="dimension" />
+        <attr name="buttonPadding" format="dimension" />
+    </declare-styleable>
+
+    <attr name="dampingRatio" format="float" />
+    <attr name="dotsColor" format="color" />
+    <attr name="dotsColorSelected" format="color" />
+    <attr name="dotsCornerRadius" format="dimension" />
+    <attr name="dotsSize" format="dimension" />
+    <attr name="dotsSpacing" format="dimension" />
+    <attr name="dotsStrokeColor" format="color" />
+    <attr name="dotsStrokeWidth" format="dimension" />
+    <attr name="dotsWidthFactor" format="float" />
+    <attr name="stiffness" format="float" />
+    <declare-styleable name="DotsIndicator">
+        <attr name="dotsColor" />
+        <attr name="dotsColorSelected" />
+        <attr name="dotsSize" />
+        <attr name="dotsWidthFactor" />
+        <attr name="dotsSpacing" />
+        <attr name="dotsCornerRadius" />
+    </declare-styleable>
+    <declare-styleable name="SpringDotsIndicator">
+        <attr name="dotsColor" />
+        <attr name="dotsSize" />
+        <attr name="dotsSpacing" />
+        <attr name="dotsCornerRadius" />
+        <attr name="dotsStrokeWidth" />
+        <attr name="dotsStrokeColor" />
+        <attr name="stiffness" />
+        <attr name="dampingRatio" />
+    </declare-styleable>
+    <declare-styleable name="WormDotsIndicator">
+        <attr name="dotsColor" />
+        <attr name="dotsSize" />
+        <attr name="dotsSpacing" />
+        <attr name="dotsCornerRadius" />
+        <attr name="dotsStrokeWidth" />
+        <attr name="dotsStrokeColor" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+</resources>

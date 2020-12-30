@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.co.challengeliv3ly.widgets.loading.RotateLoadingView
+        android:id="@+id/spin_loading"
+        android:layout_width="@dimen/size_55"
+        android:layout_height="@dimen/size_55"
+        android:layout_gravity="center"
+        app:loading_color="@color/colorPrimary"
+        app:loading_width="@dimen/size_5"
+        app:shadow_position="2" />
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/hostSquaresFragment"
+        android:icon="@drawable/ic_menu_square"
+        android:title="@string/title_tab_squares"/>
+    <item
+        android:id="@+id/hostCircleFragment"
+        android:icon="@drawable/ic_menu_circle"
+        android:title="@string/title_tab_circles" />
+    <item
+        android:id="@+id/hostTriangleFragment"
+        android:icon="@drawable/ic_triangle"
+        android:title="@string/title_tab_triangle" />
+    <item
+        android:id="@+id/hostRandomFragment"
+        android:icon="@drawable/ic_menu_random"
+        android:title="@string/title_tab_random" />
+</menu>

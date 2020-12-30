@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_tab_squares">Squares</string>
+    <string name="title_tab_triangle">Triangles</string>
+    <string name="title_tab_circles">Circles</string>
+    <string name="title_tab_random">All</string>
+    <string name="title_forgot_password">Forgot password</string>
+    <string name="title_change_password">Change password</string>
+    <string name="title_register">Update Profile</string>
+    <string name="title_term_and_conditions">Term and Conditions</string>
+    <string name="title_privacy_policy">Privacy Policy</string>
+    <string name="title_invite_your_friend">Invite your friends</string>
+    <string name="title_login_with_phone">Log in by your phone number</string>
+    <string name="title_verify_phone">Verification code</string>
+</resources>

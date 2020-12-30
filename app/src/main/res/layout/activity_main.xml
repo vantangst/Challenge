@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".views.activity.MainActivity">
+
+    <com.co.challengeliv3ly.widgets.AppActionBar
+        android:id="@+id/appActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fragment
+        android:id="@+id/hostHomeFragment"
+        android:name="android.support.core.design.widget.MenuHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:enterAnim="@anim/slide_in_from_right"
+        app:exitAnim="@anim/slide_out_to_left"
+        app:layout_constraintBottom_toTopOf="@+id/viewBottomMenu"
+        app:layout_constraintTop_toBottomOf="@+id/appActionBar"
+        app:navGraph="@navigation/nav_main"
+        app:navMenu="@id/viewBottomMenu"
+        app:navType="order"
+        app:popEnterAnim="@anim/slide_in_from_left"
+        app:popExitAnim="@anim/slide_out_to_right" />
+
+    <com.google.android.material.tabs.BottomMenuView
+        android:id="@+id/viewBottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryBackgroundDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:tabGravity="fill"
+        app:tabIconTint="@color/selector_default"
+        app:tabIndicatorColor="@color/gray_01"
+        app:tabIndicatorHeight="0dp"
+        app:tabTextAppearance="@style/AppDesign.TextView.Nav"
+        app:tabMenu="@menu/menu_bottom_main"
+        app:tabTextColor="@color/selector_default" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_0_5"
+        android:background="@color/gray"
+        app:layout_constraintTop_toTopOf="@+id/viewBottomMenu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

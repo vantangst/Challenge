@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="menu_bottom_text_size" format="float" type="dimen">10</item>
+</resources>

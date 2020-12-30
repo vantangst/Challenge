@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_enter_name_reserve">Please enter your name</string>
+    <string name="error_enter_email_reserve">Please enter email address</string>
+    <string name="error_email_not_valid">Email address is not valid, please enter it again</string>
+    <string name="error_phone_not_valid">Phone number is not valid, please enter it again</string>
+    <string name="error_password">Please enter a password</string>
+    <string name="error_enter_phone_reserve">Please enter your phone number</string>
+    <string name="error_enter_avatar">Please choose your avatar</string>
+    <string name="error_exception_resend_forgot_password">Something went wrong! please try forgot password again</string>
+
+    <string name="error_verify_code">Please enter your verification code</string>
+    <string name="error_space_password">Password does not contain spaces</string>
+    <string name="error_password_length">Please enter a password between 6–20 characters</string>
+    <string name="error_username_length">The username must have at least 6 – 20 characters and must not have special characters.</string>
+    <string name="error_not_matching_password">Re-type password does not match with new password</string>
+
+    <string name="message_not_wifi">Please check your connection and try again</string>
+
+    <string name="message_exit_app">Are you sure you want to exit the application?</string>
+    <string name="message_logout_app">Are you sure you want to logout?</string>
+    <string name="message_cancel_request">Are you sure you want to cancel request?</string>
+    <string name="message_register_successful">Register successfully</string>
+
+</resources>

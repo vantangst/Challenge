@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".widgets.AppActionBar"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <ImageButton
+        android:id="@+id/abLeft"
+        android:layout_width="?actionBarSize"
+        android:layout_height="?actionBarSize"
+        android:background="?selectableItemBackgroundBorderless"
+        android:padding="?defaultOffset"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_arrow_back_white_24dp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/abTitleLong"
+        style="@style/AppDesign.TextView.Title"
+        android:layout_width="0dp"
+        android:layout_height="?actionBarSize"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_20"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/abLeft"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/abTitleShort"
+        style="@style/AppDesign.TextView.Title"
+        android:layout_width="0dp"
+        android:layout_height="?actionBarSize"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/app_name" />
+
+    <com.co.challengeliv3ly.widgets.image.AppImageView
+        android:id="@+id/abRight"
+        android:layout_width="wrap_content"
+        android:layout_height="?actionBarSize"
+        android:paddingEnd="@dimen/size_10"
+        android:paddingStart="@dimen/size_10"
+        android:background="?selectableItemBackgroundBorderless"
+        android:gravity="center_vertical"
+        android:tint="@color/colorPrimaryDarkText"
+        android:src="@drawable/ic_menu_notification"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/abTitleShort"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</merge>

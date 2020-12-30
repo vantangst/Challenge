@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mis_image_size">120dp</dimen>
+    <dimen name="mis_space_size">2dp</dimen>
+    <dimen name="mis_folder_cover_size">72dp</dimen>
+
+    <!-- DEFAULT -->
+    <dimen name="radius_default">4dp</dimen>
+    <dimen name="radius_22">22dp</dimen>
+    <dimen name="radius_30">30dp</dimen>
+    <dimen name="radius_6">6dp</dimen>
+
+    <!-- SIZE -->
+    <dimen name="size_0_1">0.1dp</dimen>
+    <dimen name="size_0_3">0.3dp</dimen>
+    <dimen name="size_0_5">0.5dp</dimen>
+    <dimen name="size_1">1dp</dimen>
+    <dimen name="size_1_25">1.25dp</dimen>
+    <dimen name="size_2">2dp</dimen>
+    <dimen name="size_2_5">2.5dp</dimen>
+    <dimen name="size_3">3dp</dimen>
+    <dimen name="size_4">4dp</dimen>
+    <dimen name="size_5">5dp</dimen>
+    <dimen name="size_6">6dp</dimen>
+    <dimen name="size_7">7dp</dimen>
+    <dimen name="size_8">8dp</dimen>
+    <dimen name="size_10">10dp</dimen>
+    <dimen name="size_11">11dp</dimen>
+    <dimen name="size_12">12dp</dimen>
+    <dimen name="size_14">14dp</dimen>
+    <dimen name="size_15">15dp</dimen>
+    <dimen name="size_18">18dp</dimen>
+    <dimen name="size_20">20dp</dimen>
+    <dimen name="size_22">22dp</dimen>
+    <dimen name="size_25">25dp</dimen>
+    <dimen name="size_28">28dp</dimen>
+    <dimen name="size_30">30dp</dimen>
+    <dimen name="size_32">32dp</dimen>
+    <dimen name="size_33">33dp</dimen>
+    <dimen name="size_35">35dp</dimen>
+    <dimen name="size_40">40dp</dimen>
+    <dimen name="size_42">42dp</dimen>
+    <dimen name="size_45">45dp</dimen>
+    <dimen name="size_50">50dp</dimen>
+    <dimen name="size_55">55dp</dimen>
+    <dimen name="size_60">60dp</dimen>
+    <dimen name="size_70">70dp</dimen>
+    <dimen name="size_80">80dp</dimen>
+    <dimen name="size_90">90dp</dimen>
+    <dimen name="size_100">100dp</dimen>
+    <dimen name="size_109">109dp</dimen>
+    <dimen name="size_120">120dp</dimen>
+    <dimen name="size_150">150dp</dimen>
+    <dimen name="size_160">160dp</dimen>
+    <dimen name="size_170">170dp</dimen>
+    <dimen name="size_180">180dp</dimen>
+    <dimen name="size_200">200dp</dimen>
+    <dimen name="size_220">220dp</dimen>
+    <dimen name="size_250">250dp</dimen>
+    <dimen name="size_280">280dp</dimen>
+    <dimen name="size_300">300dp</dimen>
+    <dimen name="size_400">400dp</dimen>
+    <dimen name="size_480">480dp</dimen>
+
+
+    <!-- TEXT SIZE -->
+    <dimen name="text_size_4">4sp</dimen>
+    <dimen name="text_size_8">8sp</dimen>
+    <dimen name="text_size_9">9sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="text_size_32">32sp</dimen>
+    <dimen name="text_size_40">40sp</dimen>
+
+
+    <dimen name="size_of_image_collection">200dp</dimen>
+    <dimen name="size_of_image_photo">150dp</dimen>>
+
+    <!-- HEIGHT -->
+    <dimen name="height_of_image_splash">210dp</dimen>
+    <dimen name="height_of_image_service">170dp</dimen>
+    <dimen name="height_of_image_restaurant">220dp</dimen>
+    <dimen name="height_of_map">250dp</dimen>
+    <dimen name="height_of_image_activity">250dp</dimen>
+    <dimen name="height_of_selected">35dp</dimen>
+    <dimen name="height_sponsored_restaurant">100dp</dimen>
+    <dimen name="min_height_of_button">35dp</dimen>
+    <dimen name="min_height_of_edit_text">45dp</dimen>
+
+    <!-- WIDTH-->
+    <dimen name="width_of_image_completed">130dp</dimen>
+    <dimen name="width_of_image_service">270dp</dimen>
+    <dimen name="width_of_shadow_feature">90dp</dimen>
+    <dimen name="min_width_of_button">100dp</dimen>
+    <dimen name="min_width_of_tag">80dp</dimen>
+
+    <!-- ICON SIZE -->
+    <dimen name="icon_size_huge">80dp</dimen>
+    <dimen name="icon_size_large">64dp</dimen>
+    <dimen name="icon_size_normal">32dp</dimen>
+    <dimen name="icon_size_small">24dp</dimen>
+    <dimen name="icon_size_medium">35dp</dimen>
+    <dimen name="icon_size_tiny">12dp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="height_of_button">40dp</dimen>
+    <dimen name="height_of_edit_text">45dp</dimen>
+</resources>

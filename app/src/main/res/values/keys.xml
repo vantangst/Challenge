@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="api_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBda8E3Q3sbHLALp7kn9HzCHzYaa8TenB8</string>
+    <string name="publishable_key_live" translatable="false">pk_live</string>
+    <string name="publishable_key_test" translatable="false">pk_test</string>
+</resources>

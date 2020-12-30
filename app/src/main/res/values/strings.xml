@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Liv3ly Challenge</string>
+    <string name="login">Login</string>
+    <string name="log_out">Log out</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register">Register</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="back">Back</string>
+    <string name="submit">Submit</string>
+    <string name="send">Send</string>
+    <string name="password">Password</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_password">Re-type password</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="verification_code">Verification code</string>
+    <string name="your_password">Your Password</string>
+    <string name="tab_feed">Feed</string>
+    <string name="tab_chat">Chat</string>
+    <string name="tab_notifications">Notifications</string>
+    <string name="tab_my_listings">My Listings</string>
+    <string name="left_menu_invite">Invite</string>
+    <string name="left_menu_term_condition">Term and condition</string>
+    <string name="left_menu_privacy">Privacy</string>
+    <string name="left_menu_logout">Logout</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+
+    <string name="btn_add">Add</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_notification">Notification</string>
+    <string name="btn_terms_and_policy">Terms and Policy</string>
+    <string name="btn_about_us">About Us</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_resend">Resend</string>
+    <string name="btn_done">Done</string>
+
+    <string name="btn_camera">Camera</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_photo">Photo</string>
+
+    <string name="share_app_content">Hey, check out JobSpace! You can post your daily chores, errands, and everyday jobs you need completed!</string>
+</resources>

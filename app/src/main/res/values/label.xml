@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_done">DONE !</string>
+    <string name="label_notification">Notification</string>
+    <string name="label_enter_your_email">Enter your Email</string>
+    <string name="label_enter_your_phone">Enter your Phone</string>
+    <string name="label_enter_your_password">Enter your Password</string>
+    <string name="label_your_email">Your email address</string>
+    <string name="label_your_phone">Your Phone</string>
+    <string name="label_empty_data">Empty Data</string>
+    <string name="label_select_time">Select Time</string>
+    <string name="label_verification_account_description_x"><![CDATA[Please type the verification code sent to <b>%s</b>]]></string>
+    <string name="label_can_not_receive_email">Can’t find verification code via email?</string>
+    <string name="label_resend_email_description">Try checking your spam folder. If you still can’t log in, have us resend the email.</string>
+    <string name="label_resend_email">resend the email.</string>
+    <string name="label_change_password">Change password</string>
+    <string name="label_account_recovery">Account Recovery</string>
+</resources>

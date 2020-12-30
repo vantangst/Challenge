@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#725BCD</color>
+    <color name="colorPrimaryDark">#725BCD</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorPrimaryText">#725BCD</color>
+    <color name="colorPrimaryDarkText">#FFFFFF</color>
+    <color name="colorPrimaryButton">#FFFFFF</color>
+    <color name="colorPrimaryButtonDark">#5B49A4</color>
+    <color name="colorPrimaryNegativeButton">#E6E6E6</color>
+    <color name="colorPrimaryButtonText">#725BCD</color>
+    <color name="colorPrimaryNegativeButtonText">#2a2e32</color>
+    <color name="colorPrimaryButtonDarkText">#FFFFFF</color>
+    <color name="colorPrimaryBackground">#725BCD</color>
+    <color name="colorPrimaryBackgroundDark">#5B49A4</color>
+
+    <!-- transparency -->
+    <color name="colorTransparency">#00000000</color>
+    <color name="colorTransparencyBlack20">#20000000</color>
+
+    <color name="colorTransparencyPrimary50">#80725BCD</color>
+    <color name="colorTransparencyPrimary80">#CC725BCD</color>
+    <color name="colorTransparencyBlack50">#80000000</color>
+    <color name="colorTransparencyBlack80">#CC000000</color>
+    <color name="colorTransparencyWhite50">#80FFFFFF</color>
+
+    <color name="red">#e8190b</color>
+    <color name="blackGray">#2a2e32</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue_light">#89b3ff</color>
+    <color name="blue_light_01">#89b3ff</color>
+    <color name="blue_02">#528df7</color>
+    <color name="blue_light_10">#ccd7e0</color>
+
+    <color name="gray">#D8DDE5</color>
+    <color name="gray_01">#fbfbfb</color>
+    <color name="gray_02">#e6e6e6</color>
+    <color name="gray_03">#cccccc</color>
+    <color name="gray_04">#b3b3b3</color>
+    <color name="gray_05">#808080</color>
+    <color name="gray_10">#D1D1D1</color>
+
+    <color name="gray_light">#F1F1F1</color>
+    <color name="gray_cyan">#79cfeb</color>
+    <color name="icon_nav_drawer">#51ABB8</color>
+</resources>

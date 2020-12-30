@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/size_15"
+    tools:context=".views.dialogs.CommonDialog">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:maxLines="2"
+        android:padding="@dimen/size_5"
+        android:text="@string/label_notification"
+        android:textColor="@color/blackGray"
+        android:textSize="@dimen/text_size_18"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_5"
+        android:layout_marginTop="@dimen/size_15"
+        android:layout_marginRight="@dimen/size_5"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_14"
+        tools:text="Message" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/size_25"
+        android:layout_marginBottom="@dimen/size_10"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNegative"
+            style="@style/AppDesign.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/box_gray_corner"
+            android:text="@string/btn_no"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnPositive"
+            style="@style/AppDesign.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/size_15"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="@drawable/button_blue"
+            android:text="@string/btn_yes"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

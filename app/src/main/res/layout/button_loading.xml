@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".widgets.button.LoadingButton"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <Button
+        android:id="@+id/btnLoading"
+        style="@style/AppDesign.Button.Default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        tools:text="Button" />
+
+    <ProgressBar
+        android:id="@+id/progressLoading"
+        android:layout_width="@dimen/size_40"
+        android:layout_height="@dimen/size_40"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/colorPrimary"
+        android:translationZ="3dp"
+        android:visibility="invisible"
+        tools:targetApi="lollipop"
+        tools:visibility="visible" />
+</merge>

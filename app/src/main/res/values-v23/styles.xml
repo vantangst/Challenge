@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="defaultOffset">@dimen/size_12</item>
+        <item name="android:textColor">@color/blackGray</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:buttonBarButtonStyle">@style/DialogButton</item>
+        <item name="android:dropDownListViewStyle">@style/popup</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="defaultOffset">@dimen/size_12</item>
+        <item name="android:textColor">@color/blackGray</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:buttonBarButtonStyle">@style/DialogButton</item>
+        <item name="android:dropDownListViewStyle">@style/popup</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+</resources>

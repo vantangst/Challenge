@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppDesign.Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/size_5"
+    android:layout_marginEnd="@dimen/size_5"
+    android:layout_weight="1"
+    android:background="@drawable/tab_default"
+    android:padding="?defaultOffset"
+    android:textColor="@color/selector_default"
+    tools:text="Item Tab" />
