@@ -14,10 +14,10 @@ To change API domain:
 Go to project folder -> `gradle.properties` -> change the varibale `END_POINT` to your domain
 
 # Note
-I have done for all titem at `Problem Statement`.
-I don't have more time to finish extra task. really sorry for that.
+I have done for all items at `Problem Statement`.
+I don't have time to finish the extra tasks.
 
-I am is beginner with Unit test so i just created some basic test case, i will try more later.
+I am a beginer writing Unit test so just some basic test was written.
 
 Thanks
 
